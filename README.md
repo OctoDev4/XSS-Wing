@@ -48,7 +48,7 @@ sudo iptables -I INPUT -p tcp --sport 80 -j NFQUEUE --queue-num 0
 Usage
 Run the script with root privileges:
 ```bash
-sudo python3 xss_wing.py
+sudo python3 main.py
 ```
 
 Customization
