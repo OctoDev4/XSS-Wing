@@ -56,7 +56,7 @@ To change the injected JavaScript payload, edit this part of the script:
 
 ```python
   injection_code = b"<script>REPLACE HERE;</script></div>"
-)
+
 ```
 
 Disclaimer
